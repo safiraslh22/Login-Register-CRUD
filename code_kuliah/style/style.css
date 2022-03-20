@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#d9a28f, #95b0d9);
+  overflow: hidden;
+}
+h2 {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.form h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  color: #a07160;
+}
+.form form {
+  padding: 0 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.form form .field {
+  margin: 30px 0;
+  position: relative;
+}
+.form form .field input {
+  position: relative;
+  border: 2px solid #c4c4c4;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.5s;
+}
+.form form .field input:focus {
+  border: 2px solid #555;
+}
+input[type="submit"] {
+  position: relative;
+  padding: 3px 40px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #e4bcb4;
+  background: #e4bcb4;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+}
+input[type="submit"]:hover {
+  background: #cca7a0;
+}
+.form form .pass {
+  margin: 10px 0 30px 0;
+  color: #ba7f6a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.form form .pass a {
+  text-decoration: none;
+  color: #7890b2;
+}
+.form form .pass a:hover {
+  color: #5f738f;
+}
+.container {
+  margin: auto;
+  width: 50%;
+}
+.container h4 {
+  padding: 5px 0;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(255, 0, 0);
+}
