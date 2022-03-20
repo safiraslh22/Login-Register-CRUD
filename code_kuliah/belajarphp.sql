@@ -40,8 +40,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `nama`, `nim`, `fakultas`, `prodi`) VALUES
-(1, 'Safira Luthfiana Husodo', '205150600111029', 'Ilmu Komputer', 'Teknologi Informasi'),
-(2, 'Muhammad Helmy', '205150701111018', 'Ilmu Komputer', 'Teknologi Informasi');
+(1, 'Safira Luthfiana Husodo', '205150600111029', 'Ilmu Komputer', 'Pendidikan Teknologi Informasi'),
+(2, 'Helmy Fadlail', '205150701111018', 'Ilmu Komputer', 'Teknologi Informasi');
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'helmy', '$2y$10$1MdtRM1jwgxg7lPqUY6SievieE.CRxfVs2Bwp0CpN95CJeOPZhm8.'),
 (2, 'safira', '$2y$10$uSbz1jABIBsSaXE9g6mF9ubKcXClBI.7hdgw5sCKTsx3K.0POsCfK'),
 (4, 'husodo', '$2y$10$vca59DkAVcVde/O1m1RTo.e74ZEF/zUtX/ZW2YAIaAVu5750ENHBu');
 
